@@ -1,0 +1,52 @@
+
+.btn{
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 15px 15px;
+    font-size: 24px;
+    font-weight: 700px;
+    border-radius: 20px;
+  }
+  .btn--primary{
+    color: var(--color-heading);
+  }
+  .btn--primary:hover{
+    background-color: aqua;
+  }
+  .btn--secondry{
+    border: 2px solid var(--color-secondary);
+    background-color:rgba(255, 255, 255, 0.1);
+    color: var(--color-heading);
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .btn--secondry:hover{
+    background-color: var(--color-primary);
+  }
+  .btn--check{
+    padding: 10px 10px;
+    border: var(--color-secondary);
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+  }
+  .btn--submit{
+    padding: 15px 40px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 55px;
+  }
+  .btn--submit:hover{
+    background-color: rgba(0, 255, 255, 0.57);
+  }
+  .btn--status{
+    width: 219px;
+    height: 69px;
+    color: var(--color-secondary);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+  }
+  .btn--status:hover{
+    background-color: var(--color-primary);
+    border: 2px solid  var(--color-secondary);
+  }
+  

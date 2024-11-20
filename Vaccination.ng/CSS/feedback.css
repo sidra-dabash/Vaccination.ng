@@ -1,0 +1,157 @@
+.feedback{
+    height: 750px;
+    text-align: center;
+   }
+   .feedback-card{
+    width: 305px;
+    height: 190.63px;
+    border-radius: 13.55px;
+    background-image: url(../images/Bg_FeedBack.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .feedback-c-1{
+    background-color: #C4C4C480;
+   }
+   .feedback--text{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+   }
+   .feedback--text p:nth-child(1){
+    font-size: 13.55px;
+    color: var(--color-secondary);
+    margin-top: 10px;
+   }
+   .feedback-img{
+    display: flex;
+    justify-content: space-around;
+   }
+   .feedback--text h3{
+    color: var(--color-accent);
+    font-size: 24px;
+    margin-top: 10px;
+   }
+   .feedback--text p{
+    color: #00000080;
+    font-size: 12px;
+    margin-top: 10px;
+   }
+   .feedback-img h5{
+    color: var(--color-accent);
+    font-size: 13.55px;
+    margin-top: 30px;
+   }
+  .feedback-img img{
+    margin-top: 10px;
+  }
+  .feedback-c-1 p{
+    color:#00000080;
+    font-size: 9.49px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .feedback-img p{
+    margin-top: 10px;
+  }
+  /* -------------------------------------- */
+  .feedback-c-2{
+    background-color:var(--color-secondary);
+    margin-top: 20px;
+   }
+   .feedback-c-2 p{
+    color:var(--color-heading);
+    font-size: 9.49px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .feedback-c-3{
+    background-color: #C4C4C480;
+    margin-top: 20px;
+   }
+   .feedback-c-3 p{
+    color:#00000080;
+    font-size: 9.49px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .img-2 p{
+    color: var(--color-heading);
+  }
+  .img-2 h5{
+    color: var(--color-heading);
+  }
+  .feedback--card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  @media screen and (min-width:768px) {
+    .feedback{
+      height: 900px;
+    }
+    .feedback--text{
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-bottom: 20px;
+     }
+    .feedback--text h3{
+      font-size: 36px;
+    }
+    .feedback--text p{
+      font-size: 18px;
+    }
+    .feedback-card{
+      width: 400px;
+      height: 250px;
+    }
+    .feedback-card p{
+      font-size: 18px;
+    }
+    .feedback-img img{
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
+  @media screen and (min-width:1024px) {
+    .feedback{
+      height: 500px;
+    }
+    .feedback--text{
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-bottom: 20px;
+     }
+    .feedback--text h3{
+      font-size: 48px;
+    }
+    .feedback--text p{
+      font-size: 24px;
+    }
+    .feedback-card{
+      width: 400px;
+      height: 250px;
+    }
+    .feedback-card p{
+      font-size: 18px;
+    }
+    .feedback-img img{
+      width: 70px;
+      height: 70px;
+    }
+    .feedback-card{
+      width: 400px;
+      height: 250px;
+    }
+    .feedback--card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+  }

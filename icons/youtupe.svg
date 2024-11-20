@@ -1,0 +1,6 @@
+  <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+      <path d="M22.54 6.42A2.78 2.78 0 0 0 20.7 4.6C19 4 12 4 12 4s-7 0-8.7.6A2.78 2.78 0 0 0 1.46 6.42 29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.3 19.4c1.7.6 8.7.6 8.7.6s7 0 8.7-.6a2.78 2.78 0 0 0 1.84-1.82A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.58z"></path>
+      <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+    </svg>
+  </a>

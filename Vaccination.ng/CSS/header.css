@@ -1,0 +1,117 @@
+
+#menu-btn {
+    width: 40px;
+    height: 40px;
+    display: none;
+    font-size: 24px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: 56px;
+  }
+  #menu ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+  }
+  #menu ul li{
+   color: white;
+   margin-top: 10px;
+  }
+  .container{
+    background-image: url(../images/Bg_images.png);
+    height: 1380px;
+    padding: 20px;
+  }
+  .container header{
+    display: flex;
+    justify-content:space-around;
+  }
+   header h1{
+    font-size: 18px;
+    font-weight: 700px;
+    margin-top: 56px;
+  }
+  hr{
+    flex-direction: row;
+    width: 80px;
+    border-bottom:2px solid var(--color-secondary);
+  }
+  .btn--status{
+    display: none;
+  }
+  .header--list li:nth-child(1){
+    font-weight: 700px;
+    font-size: 24px;
+  }
+  .header--list ul li a{
+    list-style-type: none;
+  }
+  .header--list a{
+    text-decoration: none;
+    color: var(--color-heading);
+  }
+  @media screen and (min-width:390px) {
+    .container{
+      text-align: center;
+    }
+  }
+  
+  @media screen and (min-width:768px) {
+    .container{
+      height: 1470px;
+      padding: 10px;
+      text-align: center;
+    }
+     header h1{
+      font-size: 25.5px;
+      font-weight: 700px;
+      margin-top: 56px;
+    }
+    hr{
+      flex-direction: row;
+      width: 120px;
+      border-bottom:2px solid var(--color-secondary);
+    }
+  }
+  
+  @media screen and (min-width:1024px) {
+    .container{
+      width: 100%;
+      height: 965px;
+    }
+     header h1{
+      font-size: 32px;
+      font-weight: 700px;
+      margin-top: 20px;
+    }
+    hr{
+      flex-direction: row;
+      width: 140px;
+      border-bottom:2px solid var(--color-secondary);
+    }
+    .btn--status{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-btn{
+      display: none;
+    }
+    #menu ul{
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    #menu ul li{
+      color: var(--color-body);
+    }
+  }
+  
+  

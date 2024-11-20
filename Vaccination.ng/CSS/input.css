@@ -1,0 +1,104 @@
+
+.input{
+    background-image: url(../images/Bg_images.png);
+    height: 497px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .input--card{
+    width: 305px;
+    height: 381px;
+    background-color:#c4c4c431;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .input--card p{
+    font-size: 10px;
+    font-weight: 700px;
+    margin-top: 20px;
+    color: var(--color-heading);
+  }
+  .input--card input{
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .input--card input:hover{
+    border:3px solid  var(--color-secondary);
+  }
+  .btn--check{
+    margin-top: 20px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+    background-color: #c4c4c431;
+  }
+  .btn--check:hover{
+    background-color: var(--color-primary);
+  }
+  .input--text{
+    margin-left: 5px;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #c4c4c431;
+    border-radius: 10px;
+    width: 280px;
+  }
+  .input--text p{
+    color: var(--color-secondary);
+  }
+  @media screen and (min-width:768px) {
+    .input{
+      height: 600px;
+    }
+    .input--card{
+      width: 667px;
+      height: 483px;
+    }
+    .input--card p{
+      font-size: 20px;
+    }
+    .input--card input{
+      width: 447px;
+      height: 69px;
+    }
+    .btn--check{
+      float: none;
+    }
+    .input--text{
+      width: 538px;
+      margin-left: 70px;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .input{
+      height: 466px;
+    }
+    .input--card{
+      width: 1299px;
+      height: 431px;
+    }
+    .input--card input{
+      margin-top: 30px;
+    }
+    .input--text{
+      width: 1113px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .input--text p{
+      text-align: center;
+    }
+  }
+  

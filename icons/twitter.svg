@@ -1,0 +1,5 @@
+  <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+      <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 16.24 2a4.48 4.48 0 0 0-4.48 4.48v.63A12.94 12.94 0 0 1 3 4.11s-4 9 5 13a12.18 12.18 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+    </svg>
+  </a>

@@ -1,0 +1,227 @@
+.covid--topics{
+    background-image: url(../images/Bg_images.png);
+    height: 375px;
+    text-align: center;
+  }
+  .person-img img{
+    width: 222.92px;
+    height: 167px;
+    margin-top: 50px;
+  }
+  .topics-text h5{
+    color: var(--color-heading);
+    font-size: 12px;
+  }
+  .topics-text h2{
+    font-size: 24px;
+  }
+  .topics-text p{
+    font-weight: 500px;
+    font-size: 12px;
+  }
+  .topics-text span{
+    color: var(--color-secondary);
+  }
+  .topics-text{
+    padding: 20px;
+  }
+  .topics-comp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -180px;
+  }
+  .symptom {
+    margin: 10px;
+    display:flex;
+    width: 95px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #C4C4C433;
+  }
+  .symptom p {
+    color: var(--color-secondary);
+    font-size: 8.75px;
+    margin-top: 10px;
+  }
+  .person-image {
+    margin-top: 30px;
+  }
+  
+  .person-image img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .symptom img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -10px;
+    top: -5px;
+  }
+  .symptom-1{
+    flex-direction: column;
+  }
+  .symptom-2{
+    flex-direction: column;
+  }
+  .s-left-1{
+    position: relative;
+    left: -30px;
+  }
+  .s-left-2{
+    position: relative;
+    left: -50px;
+  }
+  .s-right-1{
+    position: relative;
+    right: -30px;
+  }
+  .s-right-2{
+    position: relative;
+    right: -50px;
+  }
+  @media screen and (min-width:768px) {
+    .covid--topics{
+      height: 650px;
+    }
+    .topics-comp{
+      position: relative;
+      top:-350px;
+    }
+    .topics-text{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .symptom {
+      margin: 40px;
+      display:flex;
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+    }
+    .person-img img{
+      width: 458.42px;
+      height: 343.42px;
+      margin-top: 50px;
+    }
+    .topics-text h5{
+      font-size: 20px;
+    }
+    .topics-text h2{
+      font-size: 36px;
+      margin-top: 30px;
+    }
+    .topics-text p{
+      font-size: 18px;
+      margin-top: 30px;
+    }
+    .symptom img{
+      width: 65px;
+      height: 65px;
+      position: relative;
+      left: -10px;
+      top: -8px;
+    }
+    .symptom-1{
+      flex-direction: column;
+      position: relative;
+      right: -50px;
+    }
+    .symptom-2{
+      flex-direction: column;
+    }
+    .s-left-1{
+      position: relative;
+      left: -60px;
+    }
+    .s-left-2{
+      position: relative;
+      left: -100px;
+    }
+    .s-right-1{
+      position: relative;
+      right: -60px;
+    }
+    .s-right-2{
+      position: relative;
+      right: -100px;
+    }
+    .symptom p{
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .covid--topics{
+      height: 908px;
+    }
+    .topics-comp{
+      position: relative;
+      top:-550px;
+    }
+    .topics-text{
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+    .symptom {
+      margin: 80px;
+      display:flex;
+      width: 350px;
+      height: 70px;
+      border-radius: 10px;
+    }
+    .person-img img{
+      width: 708.42px;
+      height: 530.71px;
+      margin-top: 120px;
+    }
+    .topics-text h5{
+      font-size: 24px;
+    }
+    .topics-text h2{
+      font-size: 48px;
+      margin-top: 30px;
+    }
+    .topics-text p{
+      font-size: 24px;
+      margin-top: 30px;
+    }
+    .symptom img{
+      width: 100px;
+      height: 100px;
+      position: relative;
+      left: -15px;
+      top: -15px;
+    }
+    .symptom-1{
+      flex-direction: column;
+      position: relative;
+      right: -80px;
+    }
+    .symptom-2{
+      flex-direction: column;
+      position: relative;
+      left: -60px;
+    }
+    .s-left-1{
+      position: relative;
+      left: -100px;
+    }
+    .s-left-2{
+      position: relative;
+      left: -180px;
+    }
+    .s-right-1{
+      position: relative;
+      right: -80px;
+    }
+    .s-right-2{
+      position: relative;
+      right: -140px;
+    }
+    .symptom p{
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
